@@ -26,12 +26,20 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+   the purpose of the game is to guess a a number between a range within a certain attempts
 - [ ] Detail which bugs you found.
+- The hints are not right . when i enetered a number less than the target/correct number the hint says to go lower
+- The number of attempts displayed on the hint is wrong 1 lower than actual attempts
+- there is a glitch when trying to start over after one round. it doesn't start over 
 - [ ] Explain what fixes you applied.
+   - for the hints I fixed the data type. initally it was comparing number with a integer and I fixed it 
+   - To retart the game in in the codition if new game: I reset the socre, history and changed the status to playing
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] ![alt text](image.png)
+
+![alt text](image-1.png)
 
 ## 🚀 Stretch Features
 
